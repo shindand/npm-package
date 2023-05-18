@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "core-js": "^3.30.2",
+    "defender-game": "^1.0.0"
+  },
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shindand/npm-package.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "shindand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shindand/npm-package/issues"
+  },
+  "homepage": "https://github.com/shindand/npm-package#readme"
+}
